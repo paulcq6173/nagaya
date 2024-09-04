@@ -1,0 +1,39 @@
+{
+  "name": "nagaya",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "wrangler pages dev",
+    "deploy": "wrangler pages deploy .vercel/output/static"
+  },
+  "dependencies": {
+    "framer-motion": "^11.3.31",
+    "install": "^0.13.0",
+    "next": "14.2.7",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.2",
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "@types/node": "^22.5.2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.7",
+    "eslint-plugin-next-on-pages": "^1.13.2",
+    "graphql": "^16.9.0",
+    "postcss": "^8",
+    "react-intersection-observer": "^9.13.0",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "wrangler": "^3.74.0"
+  }
+}
