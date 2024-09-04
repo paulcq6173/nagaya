@@ -39,6 +39,17 @@ next-env.d.ts
 /app/_data.ts
 
 # wrangler
-/.wrangler
-.wrangler.toml
+*.toml
+.wrangler/*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
